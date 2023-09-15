@@ -3,20 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Week Four</title>
+    <title>FORM</title>
   </head>
   <body>
-    <div>
-      <h2>week four work</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
-    <div>
-      <h2>week four work</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
-    <div>
-      <h2>week four work</h2>
-      <p>Lor</dem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    iv>
+    <form action="submit">
+      <fieldset>
+        <legend>APPLICATION FORM</legend>
+        <br />
+        <!-- Name -->
+        <label for="name">NAME</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="enter name"
+          required
+        /><br /><br />
+        <!-- EMAIL -->
+        <label for="email">EMAIL</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="enter email"
+          required
+        />
+        <br /><br />
+        <!-- PASSWORD -->
+        <label for="password">PASSWORD</label>
+        <input
+          type="text"
+          name="password"
+          id="password"
+          placeholder="enter password"
+          required
+        />
+        <!-- AGE -->
+        <br /><br />
+        <label for="age">AGE</label>
+        <input
+          type="datetime"
+          name="age"
+          placeholder="enter age"
+          required
+        /><br /><br />
+        <!-- ACTIVITES, checkboxes to select multiple values -->
+
+        <label for="activites">SPORTS</label>
+        <input type="checkbox" name="sports" id="sports" />
+        <label for="sports">VOLLEYBALL</label>
+
+        <input type="checkbox" name="sports" id="sports" />
+        <label for="sports">FOOTBALL</label>
+
+        <input type="checkbox" name="sports" id="sports" />
+        <label for="sports">CRICKET</label>
+        <br /><br />
+        <!-- RADIO BUTTONS TO SELECT SINGLE VALUE -->
+        <label for="">GENDER</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="femlae">FEMALE</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">MALE</label><br />
+        <br />
+
+        <!-- select tag is used to select an option -->
+        <label for="country">COUNTRY</label>
+        <select name="country" id="country">
+          <option value="singapore">SINGAPORE</option>
+          <option value="italy">ITALY</option>
+          <option value="newzeland">NEWZELAND</option>
+        </select>
+        <br /><br />
+        <!-- textarea is mainly used for feedbacks or any message -->
+        <label for="feedbacks">MESSAGE</label><br />
+        <textarea name="feedbacks" id="feedbacks" cols="12" rows="7"></textarea>
+        <br />
+        <button type="submit">PROCEED</button>
+      </fieldset>
+    </form>
   </body>
 </html>
