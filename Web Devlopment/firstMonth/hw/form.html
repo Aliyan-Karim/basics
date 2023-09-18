@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOMEWORK</title>
+  </head>
+  <body>
+    <form action="sumit">
+      <legend>
+        <h2>Carvan Booking Form</h2>
+        <p>please fill out the form to book your carvan stay</p>
+      </legend>
+      <br />
+      <div>
+        <label for="name"><b>First Name</b></label>
+        <input type="text" placeholder="enter your name" />
+
+        <label for="name"><b>Last Name</b></label>
+        <input type="text" placeholder="enter your name" />
+      </div>
+      <br /><br />
+      <div>
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="enter your email" />
+      </div>
+      <br /><br />
+      <div>
+        <label for="contact"><b>Phone Number</b></label>
+        <input type="number" placeholder="enter your number" />
+      </div>
+
+      <br /><br />
+      <div>
+        <label for="check in"><b>Check-In Date</b></label>
+        <input type="datetime" placeholder="select your check-in date" />
+        <label for="check out"><b>Check-Out Date</b></label>
+        <input type="datetime" placeholder="select your check-out date" />
+      </div>
+      <br /><br />
+      <div>
+        <label for="guests"><b>Number of Guest</b></label>
+        <input
+          type="number"
+          placeholder="select number of guests"
+          maxlength="10"
+          minlength="1"
+        />
+      </div>
+      <div>
+        <br /><br />
+        <b>Carvan type</b><br /><br />
+        <label for="standard">Standard</label>
+        <input type="radio" />
+        <label for="standard">Deluxe</label>
+        <input type="radio" />
+        <label for="standard">Luxury</label>
+        <input type="radio" />
+      </div>
+      <br /><br />
+      <div>
+        <label for="Add-Ons"><b>Add-Ons</b></label
+        ><br />
+        <label for="towels">Towels</label>
+        <input type="checkbox" name="Towels" id="Towels" />
+        <label for="Bedding">Bedding</label>
+        <input type="checkbox" name="Bedding" id="Bedding" /><br />
+        <label for="Cleanning">Cleanning</label>
+        <input type="checkbox" name="Cleanning" id="Cleanning" />
+        <label for="Others">Others</label>
+        <input type="checkbox" name="Others" id="Others" />
+        <br /><br />
+        <label for="agree">I agree to the terms and conditions</label>
+        <input type="checkbox" />
+      </div>
+      <br />
+      <button style="color: blue" type="submit">Submit Booking Request</button>
+    </form>
+  </body>
+</html>
