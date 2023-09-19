@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: lightblue;
+    }
+
+    header {
+      background-color: aqua;
+      padding: 25px;
+    }
+    nav {
+      background-color: bisque;
+      margin-right: 20px;
+      padding: 25px;
+    }
+
+    nav li {
+      margin-right: 100px;
+      display: inline;
+    }
+
+    section {
+      display: flex;
+    }
+    main {
+      flex: 4;
+      border-color: blueviolet;
+      padding: 10px 20px;
+    }
+
+    aside {
+      padding: 10px 20px;
+      flex: 2;
+      background-color: black;
+      color: white;
+      height: 1300px;
+      width: 5%;
+    }
+
+    section {
+      display: flex;
+    }
+
+    footer {
+      background: fixed;
+      background-color: rgb(70, 66, 66);
+      padding: 25px 0;
+      color: white;
+      text-align: center;
+    }
+
+    pre {
+      background-color: yellowgreen;
+    }
+
+    article {
+      text-align: center;
+      background-color: lightcoral;
+      color: crimson;
+    }
+    main video {
+      width: 100%;
+    }
+    main audio {
+      width: 100%;
+    }
+  </style>
+
+  <body>
+    <!-- header section  -->
+    <header>
+      <h3>Website Layout</h3>
+    </header>
+
+    <!-- nav tag -->
+    <nav>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about us">About Us</a></li>
+        <li><a href="/logout">Logout</a></li>
+        <li><a href="/more">More</a></li>
+      </ul>
+    </nav>
+
+    <!-- section tag  -->
+    <section>
+      <main>
+        <!-- vedio tag -->
+        <h2>VIDEO HERE</h2>
+        <video poster="" controls>
+          <source src="eg.mp3" type="audio/mp3" />
+        </video>
+
+        <br /><br />
+        <h2>AUDIO HERE</h2>
+        <audio controls>
+          <source src="eg.mpe" type="audio/mp3" />
+        </audio>
+        <br /><br />
+
+        <!-- iframe is used to borrow code from some other source 
+        or tab -->
+        <h2>IFRAME IN ACTION</h2>
+        <iframe
+          src="../../firstMonth/weekFour/form.html"
+          width="550"
+          height="450"
+          frameborder="0"
+        ></iframe>
+
+        <article>
+          <h2>This is an artice</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus modi
+          voluptatum ea mollitia ut natus doloremque minima officia dolor
+          impedit illo tenetur tempora, obcaecati fugit. Adipisci qui mollitia
+          nisi dignissimos.
+        </article>
+
+        <figure>
+          <figcaption>PRE TAG</figcaption>
+          <pre>
+            int main(){
+              a= 12;
+              b= 22;
+              cout<<"a+b"
+            }
+          </pre>
+        </figure>
+      </main>
+
+      <aside>
+        <h2>aside tag</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </aside>
+    </section>
+
+    <!-- footer -->
+    <h2>FOOTER SECTION</h2>
+    <footer>
+      <p>&copy;all copyright reserved</p>
+      <b><address></address></b>
+    </footer>
+  </body>
+</html>
