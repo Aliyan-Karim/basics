@@ -1,0 +1,78 @@
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+body {
+  background-color: purple;
+  font-family: serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+.navbar {
+  background-color: black;
+  border-radius: 20px;
+  /* border raduis is used to curve the edges of the borders */
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  /* we gave li float left because of which the text will overflow from
+  the parent element ul so we have to set over flow auto above in 
+  .navbar ul */
+  margin: 30px 30px;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  /*text decoration none removes the underline  */
+}
+.navbar li a:hover {
+  color: blue;
+}
+.search {
+  padding: 20px 50px;
+  float: right;
+}
+
+.navbar input {
+  padding: 5px;
+  border-radius: 6px 18px;
+}
+
+.left {
+  background-color: green;
+  text-align: center;
+  padding: 2em 0 2em 0;
+  flex: 1 1 100px;
+}
+
+main {
+  background-color: green;
+  text-align: center;
+  padding: 4em 0 4em 0;
+  flex: 5 5 150px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.right {
+  background-color: green;
+  text-align: center;
+  padding: 2em 0 2em 0;
+  flex: 1 1 100px;
+}
+
+footer {
+  background-color: green;
+  text-align: center;
+  padding: 2em 0 2em 0;
+}

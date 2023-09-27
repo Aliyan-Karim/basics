@@ -1,0 +1,13 @@
+.para1 {
+  font-family: serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  text-shadow: 4px 4px 2px blue;
+}

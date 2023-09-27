@@ -1,0 +1,28 @@
+/* UNIVERSAL SELECTOR */
+p {
+  color: blue;
+}
+/* ID SELECTOR */
+#id {
+  color: white;
+  background-color: black;
+  font-size: larger;
+  font-family: serif;
+}
+/* CLASS SELECTOR */
+.class {
+  color: darkgoldenrod;
+  background-color: aqua;
+  font-size: larger;
+  font-family: fantasy;
+  font-display: initial;
+}
+
+h5,
+ol,
+li {
+  text-align: center;
+  background-color: brown;
+  font-size: larger;
+  padding: 10px;
+}
