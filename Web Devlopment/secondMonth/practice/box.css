@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container1 {
+  width: 80%;
+  height: 400px;
+  border: 2px solid;
+  position: relative;
+}
+.box {
+  width: 35%;
+  height: 200px;
+  border: 2px solid red;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: lightblue;
+}
+.box1 {
+  width: 35%;
+  z-index: 2;
+  position: absolute;
+  height: 200px;
+  border: 2px solid rgb(43, 255, 0);
+  background-color: lightblue;
+  opacity: 1;
+}
+.box2 {
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  border: 2px solid grey;
+  background-color: rgb(147, 204, 147);
+  opacity: 0.9;
+}
+.box3 {
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  background-color: aqua;
+  opacity: 0.8;
+  border: 2px solid fuchsia;
+  z-index: 3;
+}
