@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  border: 2px solid;
+  height: 450px;
+  /* using display flex initilaize the box as flex continer */
+  display: flex;
+  flex-direction: row;
+  /* by default flex direction row */
+  /* flex-direction: column;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse; */
+
+  /* wrap is used to make the page responsive by default it is no wrap */
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content: space-around;
+
+  align-items: center;
+  align-items: end;
+  align-items: start;
+  /* align items by default is from start and is used to align
+  items verically */
+}
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(192, 173, 209);
+  border: 2px solid yellow;
+  margin: 10px;
+  padding: 3px;
+  /* container has become flex container and the boxes are flex boxes */
+}
+
+#item-1 {
+  /* flex propeties for a flex item */
+  /* order works in an ascending order */
+  order: 2;
+
+  /* flex grow is used to maximize the space taken while increasing screen */
+  flex-grow: 3;
+}
+#item-2 {
+  /* flex shrink is used to minimize th space while deceasing
+  the screen */
+  flex-shrink: 2;
+}
+#item-3 {
+  order: 23;
+}

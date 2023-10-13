@@ -1,0 +1,429 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  background-color: rgb(47, 50, 53);
+  padding: 15px;
+}
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 253, 253);
+  transition: 0.3s;
+}
+.navbar a:hover::before {
+  width: 100%;
+}
+.logo {
+  font-size: 22px;
+}
+.button1 {
+  margin-left: 100px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: dotted;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: rgb(224, 221, 221);
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease-in;
+}
+.button2 {
+  text-align: center;
+  margin-left: 50px;
+  border: none;
+  background-color: rgb(179, 171, 130);
+  color: black;
+  border-radius: 5px;
+  padding: 14px 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.button2:hover {
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+.image {
+  float: right;
+  margin-right: 50px;
+  border-radius: 10px;
+  height: 70vh;
+}
+.color {
+  background-color: rgb(64, 48, 65);
+  height: 110vh;
+  width: 100%;
+}
+.page1 {
+  margin-top: 70px;
+  padding-left: 100px;
+}
+.firsth3 {
+  color: aqua;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.topheading {
+  color: aqua;
+  text-align: left;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.content {
+  color: aqua;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn1 {
+  background-color: transparent;
+  color: white;
+  border: dotted;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: rgb(218, 170, 94);
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease-in;
+}
+.btn2 {
+  margin-left: 20px;
+  border: none;
+  background-color: rgb(179, 171, 130);
+  color: black;
+  border-radius: 5px;
+  padding: 14px 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+.features {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 50px;
+}
+.lorem {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.border1 {
+  margin-top: 100px;
+  background-color: rgb(66, 31, 53);
+  width: 23%;
+  height: 30vh;
+  color: white;
+  border-radius: 10px;
+}
+.border2 {
+  margin-top: 100px;
+  background-color: rgb(66, 31, 53);
+  width: 23%;
+  height: 30vh;
+  color: white;
+  border-radius: 10px;
+}
+.border3 {
+  margin-top: 100px;
+  background-color: rgb(66, 31, 53);
+  width: 23%;
+  height: 30vh;
+  color: white;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.border4 {
+  margin-top: 100px;
+  background-color: rgb(66, 31, 53);
+  width: 23%;
+  height: 30vh;
+  color: white;
+  border-radius: 10px;
+}
+.border5 {
+  margin-top: 100px;
+  background-color: rgb(66, 31, 53);
+  width: 23%;
+  height: 30vh;
+  color: white;
+  border-radius: 10px;
+}
+.border6 {
+  margin-top: 100px;
+  background-color: rgb(66, 31, 53);
+  width: 23%;
+  height: 30vh;
+  color: white;
+  border-radius: 10px;
+}
+.flex2 {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.color3 {
+  height: 65vh;
+  background-color: rgb(66, 31, 53);
+  margin-top: 100px;
+  padding-left: 100px;
+}
+.image2 {
+  margin-top: 60px;
+  float: right;
+  margin-right: 50px;
+  border-radius: 10px;
+  height: 50vh;
+}
+.get {
+  font-size: 50px;
+  padding-top: 120px;
+  color: white;
+}
+.lorem3 {
+  font-size: 20px;
+  color: white;
+}
+.started3 {
+  margin-left: 20px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 5px;
+  padding: 14px 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.started3:hover {
+  background-color: rgb(172, 135, 135);
+  transition: 0.3s ease-in-out;
+}
+.meet {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 40px;
+}
+.class {
+  text-align: center;
+  font-size: 20px;
+}
+.src {
+  text-align: center;
+  justify-content: space-between;
+  word-spacing: 70px;
+}
+.sectioncolor {
+  background-color: rgb(66, 31, 53);
+  width: 100%;
+  height: 90vh;
+}
+.radius {
+  background-color: white;
+  margin-top: 70px;
+  display: flex;
+  width: 50%;
+  border: 1px dotted black;
+  text-align: left;
+  margin-left: 330px;
+  letter-spacing: 1px;
+}
+.html {
+  padding-left: 50px;
+}
+.image4 {
+  padding-left: 50px;
+}
+.content4 {
+  padding-left: 50px;
+}
+.investor {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 40px;
+}
+.myimages {
+  text-align: center;
+  font-size: 100px;
+}
+.client1 {
+  background-color: rgb(83, 35, 64);
+  margin-left: 330px;
+  margin-top: 50px;
+  border: 1px solid black;
+  text-align: center;
+  width: 60%;
+  border-radius: 10px;
+}
+.joseph {
+  color: white;
+  margin-left: 40px;
+  text-align: left;
+  font-size: 30px;
+}
+.client {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+.investorimage {
+  margin-right: 600px;
+}
+.us {
+  padding-top: 200px;
+  margin-top: 80px;
+  background-color: rgb(66, 31, 53);
+  height: 100vh;
+}
+.speak {
+  background-color: rgb(54, 13, 38);
+  text-align: center;
+  height: 80vh;
+  width: 70%;
+  margin-left: 200px;
+}
+.to {
+  padding-top: 50px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+.contact {
+  margin-top: 40px;
+  width: 500px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 550;
+  font-size: 20px;
+  background-color: white;
+}
+.contact:hover {
+  background-color: rgb(5, 146, 99);
+  transition: 0.4s ease-out;
+}
+.error123 {
+  padding-top: 70px;
+  padding-left: 90px;
+  height: 150%;
+}
+.lastimage {
+  display: flex;
+}
+.lastborder {
+  margin-top: 75px;
+  margin-left: 20px;
+  border: 1px dashed black;
+  width: 120%;
+  height: 29vh;
+  border-radius: 6px;
+}
+.lastheading {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 550;
+  margin-left: 20px;
+}
+.lasth6 {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.firstheading {
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 1px dashed black;
+  width: 120%;
+  height: 29vh;
+  border-radius: 6px;
+}
+.myheading {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 550;
+  margin-left: 20px;
+}
+.myheading2 {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.lastbutton {
+  width: 120%;
+  margin-left: 20px;
+  margin-top: 30px;
+  height: 8vh;
+  background-color: rgb(96, 235, 188);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.lastbutton:hover {
+  background-color: rgb(37, 177, 165);
+  transition: 0.3s ease-out;
+}
+.end {
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgb(66, 31, 53);
+  height: 10vh;
+}
+.copyrighted {
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 200px;
+}
+.nav2 {
+  float: right;
+  padding-top: 20px;
+  color: white;
+  padding-right: 200px;
+  font-size: 20px;
+}

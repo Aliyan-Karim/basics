@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background: url(img/bg2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: serif;
+}
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+
+.mid {
+  display: block;
+  width: 40%;
+  margin: 20px auto;
+  /* border: 2px solid green; */
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid purple; */
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 25px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: blue;
+}
+
+.left img {
+  width: 125px;
+  filter: invert(100%);
+  border-radius: 10px;
+}
+.logo {
+  text-align: center;
+  line-height: 44px;
+  font-size: 30px;
+}
+.btn {
+  margin: 0px 10px;
+  padding: 4px 18px;
+  color: white;
+  background-color: black;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: lightgrey;
+}
+.container {
+  /* border: 2px solid blue; */
+  margin: 100px 80px;
+  padding: 85px;
+  width: 40%;
+  border-radius: 30px;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 510px;
+  padding: 2px;
+  border: 2px solid black;
+  margin: 13px auto;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: serif;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
